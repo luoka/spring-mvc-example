@@ -1,0 +1,13 @@
+.settings/
+.project
+.classpath
+target
+logs/
+/src/main/webapp/WEB-INF/classes
+/src/main/webapp/WEB-INF/lib
+/src/main/webapp/data
+/src/main/profiles/development/META-INF/
+/src/main/resources/META-INF/erecord.properties
+/src/main/resources/META-INF/hibernate.properties
+
+
