@@ -16,6 +16,7 @@ public class HomeController {
 
 	@RequestMapping(value={"","/"})
 	public String index(Model model){
+		System.out.println("====================================");
 		model.addAttribute("total", this.userAdminService.total());
 		return "index";
 	}
